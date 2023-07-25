@@ -130,11 +130,11 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 245.5
+    "width": 271.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,7 +146,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "b2a95c88233fe293",
+  "active": "b4a335043ec73963",
   "lastOpenFiles": [
     "assets/img/20230725162549.png",
     "assets/images/2307/20230725162549.png",
