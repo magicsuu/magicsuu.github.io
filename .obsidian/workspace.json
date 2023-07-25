@@ -1,0 +1,198 @@
+{
+  "main": {
+    "id": "fdd2b138fa967a8c",
+    "type": "split",
+    "children": [
+      {
+        "id": "f5917aa333c30b1a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b2a95c88233fe293",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-07-25-DRF框架.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c5da99af51ef3217",
+    "type": "split",
+    "children": [
+      {
+        "id": "f6c654ed1542a798",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9dbdb0b0de34db3a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8b97fe35558a64e8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#b站视频",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "eec20149cf3d6d36",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 248.5
+  },
+  "right": {
+    "id": "37c634ec520bf467",
+    "type": "split",
+    "children": [
+      {
+        "id": "a4d0cea0ef1c2574",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "898f81b16ed8e312",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_posts/2023-07-25-DRF框架.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0397e728cc6d805e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_posts/2023-07-25-DRF框架.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bbd8379df6c82b35",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b4a335043ec73963",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_posts/2023-07-25-DRF框架.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 245.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "b2a95c88233fe293",
+  "lastOpenFiles": [
+    "_posts/2023-07-24-django.md",
+    "_posts/2023-07-25-DRF框架.md",
+    "_posts/2023-07-24-云服务器.md",
+    "_posts/2022-03-17-tca-3.md",
+    "assets/images/2022/tca-timer-label-view.png",
+    "_posts/2023-07-24 云服务器.md",
+    "_posts/2023-07-24 django.md",
+    "assets/img/Pasted image 20230725093809.png",
+    "assets/img/Pasted image 20230725094219.png",
+    "tabs/categories 1.md",
+    "assets/img/favicons/apple-icon-114x114.png",
+    "tabs/categories.md",
+    "assets/img/sample/gh-pages-sources.png",
+    "assets/img/sample/download-icons.png",
+    "assets/img/sample/devices-mockup.png",
+    "assets/img/sample/avatar.jpg",
+    "assets/img/favicons/ms-icon-70x70.png",
+    "assets/img/favicons/ms-icon-310x310.png",
+    "assets/images/cat",
+    "assets/images/2023",
+    "assets/images/2022/tca-saving-bug.mp4",
+    "assets/images/2022/tca-navigation.mp4",
+    "assets/images/2022/tca-delay-effect-saving.mp4",
+    "assets/images/2022",
+    "assets/images/2021",
+    "assets/images/2020",
+    "assets/images/2019",
+    "assets/images/2018",
+    "tabs/tags.md",
+    "tabs/archives.md",
+    "tabs/about.md",
+    "_posts/2023-07-24-demo.md",
+    "README.md",
+    "about.md",
+    "categories/能工巧匠集 1.md",
+    "categories/能工巧匠集.md",
+    "_posts/2016-04-07-objccn-plan.md",
+    "_posts/2021-07-01-swift-concurrency.md",
+    "_posts/2021-04-25-magicmirror.md",
+    "_posts/2021-03-26-swiftui-text-2.md",
+    "_posts/2021-01-22-swiftui-state.md",
+    "_posts/2020-11-10-codable-default.md",
+    "_posts/2020-10-21-use-options-pattern.md",
+    "_posts/2020-06-25-stateobject.md",
+    "_posts/2020-06-23-first-look-app-clips.md",
+    "_posts/2020-03-12-improve-delegate.md"
+  ]
+}
