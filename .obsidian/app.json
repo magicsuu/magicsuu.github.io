@@ -3,6 +3,7 @@
   "newFileFolderPath": "_posts",
   "trashOption": "system",
   "promptDelete": false,
-  "attachmentFolderPath": "assets/img",
-  "newLinkFormat": "absolute"
+  "attachmentFolderPath": "assets/images/2307",
+  "newLinkFormat": "absolute",
+  "useMarkdownLinks": true
 }
