@@ -1,0 +1,2 @@
+# magicsuu.github.io
+Blog
