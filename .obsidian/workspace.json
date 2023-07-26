@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "_posts/2023-07-26-代码上传至云服务器.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "_posts/2023-07-26-代码上传至云服务器.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "_posts/2023-07-26-代码上传至云服务器.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "_posts/2023-07-26-代码上传至云服务器.md"
               }
             }
           }
@@ -146,13 +146,19 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "b2a95c88233fe293",
+  "active": "9dbdb0b0de34db3a",
   "lastOpenFiles": [
-    "_posts/2023-07-24-云服务器.md",
-    "README.md",
+    "_posts/2023-07-25-DRF框架学习.md",
     "_posts/2023-07-26-代码上传至云服务器.md",
-    "_posts/2023-07-24-django.md",
-    "_posts/2023-07-25-DRF框架.md",
+    "_posts/2023-07-24-云服务器.md",
+    "_posts/2023-07-24-django学习.md",
+    "_posts/2023-03-22-dev-talk-testing.md",
+    "_posts/2022-12-31-2022-final.md",
+    "_posts/2022-03-17-tca-3.md",
+    "_posts/2022-05-18-tca-4.md",
+    "_posts/2022-10-13-spm-in-xcode.md",
+    "_posts/2022-11-15-swift-regex.md",
+    "README.md",
     "assets/img/Pasted image 20230725094219.png.md",
     "assets/img/Pasted image 20230725093809.png",
     "assets/img/Pasted image 20230725094219.png",
@@ -160,7 +166,6 @@
     "assets/images/2307/Pasted image 20230725094219.png",
     "assets/img/Pasted image 20230725162121.png",
     "assets/img/Pasted image 20230725162549.png",
-    "_posts/2022-03-17-tca-3.md",
     "assets/img/20230725162549.png",
     "assets/images/2307/20230725162549.png",
     "assets/images/2307/image.png",
@@ -188,11 +193,6 @@
     "categories/能工巧匠集 1.md",
     "categories/能工巧匠集.md",
     "_posts/2016-04-07-objccn-plan.md",
-    "_posts/2021-07-01-swift-concurrency.md",
-    "_posts/2021-04-25-magicmirror.md",
-    "_posts/2021-03-26-swiftui-text-2.md",
-    "_posts/2021-01-22-swiftui-state.md",
-    "_posts/2020-11-10-codable-default.md",
-    "_posts/2020-10-21-use-options-pattern.md"
+    "_posts/2021-07-01-swift-concurrency.md"
   ]
 }
