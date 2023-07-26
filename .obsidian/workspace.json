@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-07-26-代码上传至云服务器.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-07-26-代码上传至云服务器.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-07-26-代码上传至云服务器.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-07-26-代码上传至云服务器.md"
+                "file": "README.md"
               }
             }
           }
@@ -146,10 +146,18 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "9dbdb0b0de34db3a",
+  "active": "b2a95c88233fe293",
   "lastOpenFiles": [
-    "_posts/2023-07-25-DRF框架学习.md",
+    "about.md",
+    "tabs/categories.md",
+    "tabs/tags.md",
+    "tabs/archives.md",
+    "tabs/about.md",
+    "categories/能工巧匠集.md",
+    "categories",
+    "README.md",
     "_posts/2023-07-26-代码上传至云服务器.md",
+    "_posts/2023-07-25-DRF框架学习.md",
     "_posts/2023-07-24-云服务器.md",
     "_posts/2023-07-24-django学习.md",
     "_posts/2023-03-22-dev-talk-testing.md",
@@ -158,7 +166,6 @@
     "_posts/2022-05-18-tca-4.md",
     "_posts/2022-10-13-spm-in-xcode.md",
     "_posts/2022-11-15-swift-regex.md",
-    "README.md",
     "assets/img/Pasted image 20230725094219.png.md",
     "assets/img/Pasted image 20230725093809.png",
     "assets/img/Pasted image 20230725094219.png",
@@ -176,7 +183,6 @@
     "_posts/2023-07-24 云服务器.md",
     "_posts/2023-07-24 django.md",
     "tabs/categories 1.md",
-    "tabs/categories.md",
     "assets/images/cat",
     "assets/images/2023",
     "assets/images/2022/tca-saving-bug.mp4",
@@ -184,15 +190,8 @@
     "assets/images/2022/tca-delay-effect-saving.mp4",
     "assets/images/2022",
     "assets/images/2021",
-    "assets/images/2020",
-    "tabs/tags.md",
-    "tabs/archives.md",
-    "tabs/about.md",
     "_posts/2023-07-24-demo.md",
-    "about.md",
     "categories/能工巧匠集 1.md",
-    "categories/能工巧匠集.md",
-    "_posts/2016-04-07-objccn-plan.md",
-    "_posts/2021-07-01-swift-concurrency.md"
+    "_posts/2016-04-07-objccn-plan.md"
   ]
 }
