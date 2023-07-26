@@ -146,8 +146,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "b2a95c88233fe293",
+  "active": "9dbdb0b0de34db3a",
   "lastOpenFiles": [
+    "_posts/2023-07-24-django学习.md",
+    "_posts/2023-07-26-代码上传至云服务器.md",
     "README.md",
     "about.md",
     "tabs/categories.md",
@@ -156,10 +158,8 @@
     "tabs/about.md",
     "categories/能工巧匠集.md",
     "categories",
-    "_posts/2023-07-26-代码上传至云服务器.md",
     "_posts/2023-07-25-DRF框架学习.md",
     "_posts/2023-07-24-云服务器.md",
-    "_posts/2023-07-24-django学习.md",
     "_posts/2023-03-22-dev-talk-testing.md",
     "_posts/2022-12-31-2022-final.md",
     "_posts/2022-03-17-tca-3.md",
