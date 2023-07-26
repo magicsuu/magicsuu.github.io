@@ -13,22 +13,21 @@ title: MaigicsU's Den
 tagline: 犯其至难而图其至远
 description: >-
     犯其至难，图其至远。这里是 magicsuu 的博客，用来记录技术修炼过程。
-url: 'https://onevcat.com'
-author: 王巍 (onevcat)
+url: 'https://magicsuu.github.io/'
+author: magicsuu
 avatar: /assets/images/avatar.jpg
 
 github:
-  username: onevcat
+  username: magicsuu
 
 twitter:
-  username: onevcat
+  username: magicsuu
 
 social:
-  name: onevcat
-  email: onev@onevcat.com
+  name: magicsuu
+  email: msu@magicsuu.com
   links:
-    - https://github.com/onevcat
-    - https://twitter.com/onevcat
+    - https://github.com/magicsuu
 
 lang: zh-Hans
 
@@ -46,7 +45,7 @@ timezone: Asia/Tokyo
 
 disqus:
   comments: false  # boolean type, the global switch for posts comments.
-  shortname: 'onevcat'    # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+  shortname: 'magicsuu'    # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 utterances:
   comments: true

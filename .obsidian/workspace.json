@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "_posts/2023-07-26-代码上传至云服务器.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "_posts/2023-07-26-代码上传至云服务器.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "_posts/2023-07-26-代码上传至云服务器.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "_posts/2023-07-26-代码上传至云服务器.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "b2a95c88233fe293",
   "lastOpenFiles": [
+    "README.md",
     "about.md",
     "tabs/categories.md",
     "tabs/tags.md",
@@ -155,7 +156,6 @@
     "tabs/about.md",
     "categories/能工巧匠集.md",
     "categories",
-    "README.md",
     "_posts/2023-07-26-代码上传至云服务器.md",
     "_posts/2023-07-25-DRF框架学习.md",
     "_posts/2023-07-24-云服务器.md",
