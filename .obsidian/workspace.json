@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-07-26-代码上传至云服务器.md",
+                "file": "_posts/2023-07-27-ubuntu多用户测试.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-07-26-代码上传至云服务器.md",
+                "file": "_posts/2023-07-27-ubuntu多用户测试.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-07-26-代码上传至云服务器.md",
+                "file": "_posts/2023-07-27-ubuntu多用户测试.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-07-26-代码上传至云服务器.md"
+                "file": "_posts/2023-07-27-ubuntu多用户测试.md"
               }
             }
           }
@@ -146,10 +146,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "9dbdb0b0de34db3a",
+  "active": "b2a95c88233fe293",
   "lastOpenFiles": [
-    "_posts/2023-07-24-django学习.md",
     "_posts/2023-07-26-代码上传至云服务器.md",
+    "_posts/2023-07-27-ubuntu多用户测试.md",
+    "_posts/2023-07-24-django学习.md",
     "README.md",
     "about.md",
     "tabs/categories.md",
