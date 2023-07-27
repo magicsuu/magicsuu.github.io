@@ -1,0 +1,212 @@
+{
+  "main": {
+    "id": "fdd2b138fa967a8c",
+    "type": "split",
+    "children": [
+      {
+        "id": "f5917aa333c30b1a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b2a95c88233fe293",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-07-26-代码上传至云服务器.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "3d1132ea229299e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-07-26-代码上传至云服务器.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c5da99af51ef3217",
+    "type": "split",
+    "children": [
+      {
+        "id": "f6c654ed1542a798",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9dbdb0b0de34db3a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8b97fe35558a64e8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#b站视频",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "eec20149cf3d6d36",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 277.5
+  },
+  "right": {
+    "id": "37c634ec520bf467",
+    "type": "split",
+    "children": [
+      {
+        "id": "a4d0cea0ef1c2574",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "898f81b16ed8e312",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_posts/2023-07-26-代码上传至云服务器.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0397e728cc6d805e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_posts/2023-07-26-代码上传至云服务器.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bbd8379df6c82b35",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b4a335043ec73963",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_posts/2023-07-26-代码上传至云服务器.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 271.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "3d1132ea229299e0",
+  "lastOpenFiles": [
+    "_posts/2023-07-27-ubuntu多用户隔离测试.md",
+    "_posts/2023-07-26-代码上传至云服务器.md",
+    "_posts/2022-05-18-tca-4.md",
+    "assets/images/2307/Pasted image 20230727152734.png",
+    "assets/images/2307/Pasted image 20230727152641.png",
+    "assets/images/2307/Pasted image 20230727152522.png",
+    "assets/images/2307/Pasted image 20230727152429.png",
+    "assets/images/2307/Pasted image 20230727150845.png",
+    "assets/images/2307/Pasted image 20230727144904.png",
+    "assets/images/2307/Pasted image 20230727144756.png",
+    "assets/images/2307/Pasted image 20230727144551.png",
+    "assets/images/2307/Pasted image 20230727144503.png",
+    "assets/images/2307/Pasted image 20230727143949.png",
+    "README.md",
+    "_posts/2023-07-24-django学习.md",
+    "about.md",
+    "tabs/categories.md",
+    "tabs/tags.md",
+    "tabs/archives.md",
+    "tabs/about.md",
+    "categories/能工巧匠集.md",
+    "categories",
+    "_posts/2023-07-25-DRF框架学习.md",
+    "_posts/2023-07-24-云服务器.md",
+    "_posts/2023-03-22-dev-talk-testing.md",
+    "_posts/2022-12-31-2022-final.md",
+    "_posts/2022-03-17-tca-3.md",
+    "_posts/2022-10-13-spm-in-xcode.md",
+    "_posts/2022-11-15-swift-regex.md",
+    "assets/img/Pasted image 20230725094219.png.md",
+    "assets/images/2307",
+    "assets/images/新建文件夹",
+    "assets/img/Pasted.md",
+    "_posts/2023-07-24 云服务器.md",
+    "_posts/2023-07-24 django.md",
+    "tabs/categories 1.md",
+    "assets/images/cat",
+    "assets/images/2023",
+    "assets/images/2022/tca-saving-bug.mp4",
+    "assets/images/2022/tca-navigation.mp4",
+    "assets/images/2022/tca-delay-effect-saving.mp4",
+    "assets/images/2022",
+    "assets/images/2021",
+    "_posts/2023-07-24-demo.md",
+    "categories/能工巧匠集 1.md"
+  ]
+}
