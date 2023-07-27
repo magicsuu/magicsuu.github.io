@@ -20,8 +20,33 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "5e8e36772023c5de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-07-25-DRF框架学习.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "60d5e8803ee8ac38",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-07-25-DRF框架学习.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -87,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-07-26-代码上传至云服务器.md",
+                "file": "_posts/2023-07-25-DRF框架学习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-07-26-代码上传至云服务器.md",
+                "file": "_posts/2023-07-25-DRF框架学习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-07-26-代码上传至云服务器.md"
+                "file": "_posts/2023-07-25-DRF框架学习.md"
               }
             }
           }
@@ -148,13 +173,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "b4a335043ec73963",
+  "active": "9dbdb0b0de34db3a",
   "lastOpenFiles": [
+    "_posts/2023-07-24-django学习.md",
+    "_posts/2023-07-25-DRF框架学习.md",
+    "_posts/2023-07-26-代码上传至云服务器.md",
     "2021/12/tca-2.md",
     "2021/12",
     "2021",
     "_posts/2022-05-18-tca-4.md",
-    "_posts/2023-07-26-代码上传至云服务器.md",
     "_posts/2023-07-27-ubuntu多用户隔离测试.md",
     "assets/images/2307/Pasted image 20230727152734.png",
     "assets/images/2307/Pasted image 20230727152641.png",
@@ -167,7 +194,6 @@
     "assets/images/2307/Pasted image 20230727144503.png",
     "assets/images/2307/Pasted image 20230727143949.png",
     "README.md",
-    "_posts/2023-07-24-django学习.md",
     "about.md",
     "tabs/categories.md",
     "tabs/tags.md",
@@ -175,7 +201,6 @@
     "tabs/about.md",
     "categories/能工巧匠集.md",
     "categories",
-    "_posts/2023-07-25-DRF框架学习.md",
     "_posts/2023-07-24-云服务器.md",
     "_posts/2023-03-22-dev-talk-testing.md",
     "_posts/2022-12-31-2022-final.md",
