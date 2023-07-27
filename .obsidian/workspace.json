@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-07-27-ubuntu多用户测试.md",
+                "file": "_posts/2023-07-27-ubuntu多用户隔离测试.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 248.5
+    "width": 241.5
   },
   "right": {
     "id": "37c634ec520bf467",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-07-27-ubuntu多用户测试.md",
+                "file": "_posts/2023-07-27-ubuntu多用户隔离测试.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-07-27-ubuntu多用户测试.md",
+                "file": "_posts/2023-07-27-ubuntu多用户隔离测试.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-07-27-ubuntu多用户测试.md"
+                "file": "_posts/2023-07-27-ubuntu多用户隔离测试.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "b2a95c88233fe293",
   "lastOpenFiles": [
+    "assets/images/2307/Pasted image 20230727095911.png",
     "_posts/2023-07-26-代码上传至云服务器.md",
-    "_posts/2023-07-27-ubuntu多用户测试.md",
+    "_posts/2023-07-27-ubuntu多用户隔离测试.md",
     "_posts/2023-07-24-django学习.md",
     "README.md",
     "about.md",
@@ -192,7 +193,6 @@
     "assets/images/2022",
     "assets/images/2021",
     "_posts/2023-07-24-demo.md",
-    "categories/能工巧匠集 1.md",
-    "_posts/2016-04-07-objccn-plan.md"
+    "categories/能工巧匠集 1.md"
   ]
 }
