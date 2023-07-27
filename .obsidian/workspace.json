@@ -10,31 +10,15 @@
           {
             "id": "b2a95c88233fe293",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "_posts/2023-07-26-代码上传至云服务器.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "e9049dd5e2eb13ec",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e3b36fb58973b200",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-07-27-ubuntu多用户隔离测试.md",
-                "mode": "source",
-                "source": false
-              }
+              },
+              "pinned": true
             }
           }
         ]
@@ -87,7 +71,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5,
+    "width": 277.5,
     "collapsed": true
   },
   "right": {
@@ -153,8 +137,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.5,
-    "collapsed": true
+    "width": 271.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -168,11 +151,14 @@
   },
   "active": "b2a95c88233fe293",
   "lastOpenFiles": [
-    "_posts/2023-07-27-ubuntu多用户隔离测试.md",
-    "_posts/2023-07-26-代码上传至云服务器.md",
+    "assets/images/2307/Pasted image 20230727112744.png",
+    "assets/images/2307/Pasted image 20230725093809.png",
+    "assets/images/2307/Pasted image 20230725094219.png",
     "assets/images/2307/Pasted image 20230727110731.png",
     "assets/images/2307/Pasted image 20230727110539.png",
     "assets/images/2307/Pasted image 20230727105227.png",
+    "_posts/2023-07-26-代码上传至云服务器.md",
+    "_posts/2023-07-27-ubuntu多用户隔离测试.md",
     "assets/images/2307/Pasted image 20230727104332.png",
     "assets/images/2307/Pasted image 20230727103937.png",
     "assets/images/2307/Pasted image 20230727101828.png",
@@ -196,8 +182,6 @@
     "_posts/2022-11-15-swift-regex.md",
     "assets/img/Pasted image 20230725094219.png.md",
     "assets/img/Pasted image 20230725093809.png",
-    "assets/img/Pasted image 20230725094219.png",
-    "assets/images/2307/Pasted image 20230725093809.png",
     "assets/images/2307",
     "assets/images/新建文件夹",
     "assets/img/Pasted.md",
