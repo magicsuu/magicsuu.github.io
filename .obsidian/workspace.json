@@ -146,13 +146,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "b2a95c88233fe293",
+  "active": "9dbdb0b0de34db3a",
   "lastOpenFiles": [
+    "README.md",
+    "_posts/2023-07-27-ubuntu多用户隔离测试.md",
     "assets/images/2307/Pasted image 20230727095911.png",
     "_posts/2023-07-26-代码上传至云服务器.md",
-    "_posts/2023-07-27-ubuntu多用户隔离测试.md",
     "_posts/2023-07-24-django学习.md",
-    "README.md",
     "about.md",
     "tabs/categories.md",
     "tabs/tags.md",
@@ -181,7 +181,6 @@
     "assets/images/2307",
     "assets/images/新建文件夹",
     "assets/img/Pasted.md",
-    "assets/images/2022/tca-timer-label-view.png",
     "_posts/2023-07-24 云服务器.md",
     "_posts/2023-07-24 django.md",
     "tabs/categories 1.md",
