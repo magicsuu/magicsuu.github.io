@@ -99,19 +99,20 @@ python manage.py shell
 ```
 - 练习1
 ```shell
-# 通过模型类查询一条用户信息，即python对象obj
+# 通过模型类查询一条用户信息
+# 即python对象obj
 >>> from app1.models import UserInfo
 >>> obj = UserInfo.objects.get(id=1)
 >>> obj
 <UserInfo: 张三>
 
-# 使用查询到的用户信息（python对象obj），创建一个序列化对象ser，将python对象obj转换为json格式数据
+# 使用查询到的用户信息（即python对象obj），创建一个序列化对象ser，
+# 将python对象obj传入进去，转换为json格式数据
 >>> from app1.serializers import UserInfoSerializer
 >>> ser = UserInfoSerializer(obj)
 >>> ser.data
 {'name': '张三', 'pwd': '123456zs', 'email': 'zs@qq.com', 'age': 19}
-
 ```
 
-
+#### 2.2. 查询集序列化
 
