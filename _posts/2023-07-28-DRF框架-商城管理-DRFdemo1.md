@@ -89,3 +89,10 @@ UserInfo.objects.create(name='王五', pwd='123456ww', email='ww@qq.com', age=21
 ```
 
 ### 2. 序列化操作
+- 序列化：将`python对象`转换为`json格式数据`
+#### 2.1. 单个数据序列化
+- 进入交互环境
+- 练习1
+
+
+

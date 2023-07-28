@@ -227,4 +227,15 @@ binascii.Error: Invalid base64-encoded string: number of data characters (213) c
 - 解决方法：**清除浏览器缓存**后，重新登录即可。
 > [[Solved] binascii.Error: Invaild base64-encoded string: | 9to5Answer](https://9to5answer.com/binascii-error-invaild-base64-encoded-string-number-of-data-characters-1957-cannot-be-1-more-than-a-multiple-of-4)
 
+3. python console无法打开，报错：
+```shell
+TypeError: an integer is required (got type bytes)
+```
+- 解决方法：
+> [pycharm，使用python console报TypeError: an integer is required (got type bytes)的解决方法（python3.8）_Wwwwhy_　的博客-CSDN博客](https://blog.csdn.net/WangHY_XCJ/article/details/124278650)
+
+
+
+
+
 

@@ -24,13 +24,29 @@
           {
             "id": "60d5e8803ee8ac38",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "_posts/2023-07-28-DRF框架-商城管理-DRFdemo1.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "c314a09e2116b4b4",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-07-25-DRF框架-课程管理-drf_tutorial.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
             }
           }
         ],
@@ -163,9 +179,9 @@
   },
   "active": "60d5e8803ee8ac38",
   "lastOpenFiles": [
-    "assets/images/2307/Pasted image 20230728153603.png",
     "_posts/2023-07-25-DRF框架-课程管理-drf_tutorial.md",
     "_posts/2023-07-28-DRF框架-商城管理-DRFdemo1.md",
+    "assets/images/2307/Pasted image 20230728153603.png",
     "_posts/2023-07-26-代码上传至云服务器.md",
     "_posts/2023-07-24-django学习.md",
     "_posts/2023-07-27-ubuntu多用户隔离测试.md",
@@ -182,7 +198,6 @@
     "assets/images/2307/Pasted image 20230727152522.png",
     "assets/images/2307/Pasted image 20230727152429.png",
     "assets/images/2307/Pasted image 20230727150845.png",
-    "assets/images/2307/Pasted image 20230727144904.png",
     "README.md",
     "about.md",
     "tabs/categories.md",
