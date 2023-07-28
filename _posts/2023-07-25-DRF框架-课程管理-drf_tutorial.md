@@ -194,6 +194,28 @@ class CourseConfig(AppConfig):
 ---
 
 # ↓遇到的问题：
+1. [生成迁移文件](#^1fafe7)时，遇到了如下问题：
+```shell
+TypeError: argument of type 'PosixPath' is not iterable
+```
+- 解决方法：在settings.py文件中修改databases配置：
+```python
+# 原代码：
+DATABASES = {
+    'default': {
+        ...
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}
+
+# 修改为如下代码，将路径转化为字符串：
+DATABASES = {
+    'default': {
+        ...
+        'NAME': str(BASE_DIR / 'db.sqlite3'),
+    }
+}
+```
 1. [输入用户名密码点击登录](#^66263d)后，遇到了如下问题：
 ```shell
 binascii.Error: Invalid base64-encoded string: number of data characters (213) cannot be 1 more than a multiple of 4
