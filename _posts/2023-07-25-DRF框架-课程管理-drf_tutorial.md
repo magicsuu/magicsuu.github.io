@@ -201,6 +201,7 @@ TypeError: argument of type 'PosixPath' is not iterable
 - 解决方法：
 	- django3.1之后的版本更换了语法，但本实操使用的django3.0.6也出现了此问题.
 	- 故在settings.py文件中，将databases中default数据库的name路径转化为字符串：
+> [在 Django 设置文件中使用 Pathlib - Adam Johnson](https://adamj.eu/tech/2020/03/16/use-pathlib-in-your-django-project/)
 ```python
 # 原代码：
 DATABASES = {

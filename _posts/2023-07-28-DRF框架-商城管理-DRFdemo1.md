@@ -73,7 +73,19 @@ python manage.py makemigrations
 # 执行迁移文件
 python manage.py migrate
 ```
+![](/assets/images/2307/Pasted%20image%2020230728153603.png)
+#### 1.7. 练习数据准备
+```shell
+# 打开命令行终端，输入命令
+# 进入shell交互环境，或直接打开pycharm中的p
+python manage.py shell
+# 导入用户模型
+from app1.models import UserInfo
 
-
+# 添加测试数据
+userInfo.objects.create(name='张三', pwd='123456zs', email='zs@qq.com', age=19)
+userInfo.objects.create(name='李四', pwd='123456ls', email='ls@qq.com', age=19)
+userInfo.objects.create(name='王五', pwd='123456ww', email='ww@qq.com', age=21)
+```
 
 
