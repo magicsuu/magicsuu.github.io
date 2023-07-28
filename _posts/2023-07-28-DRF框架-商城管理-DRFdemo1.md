@@ -15,15 +15,15 @@ typora-root-url: ..
 
 ## 序列化操作
 ### 1. 环境准备
-1.1. 创建项目
+#### 1.1. 创建项目
 ```shell
 django-admin startproject DRFdemo1
 ```
-1.2. 创建应用
+#### 1.2. 创建应用
 ```shell
 python manage.py startapp app1
 ```
-1.3. 修改setting.py中的配置
+#### 1.3. 修改setting.py中的配置
 ```python
 INSTALLED_APPS = [
     ...
@@ -31,7 +31,7 @@ INSTALLED_APPS = [
     'rest_framework',
 ]
 ```
-1.4. app1/models.py中定义模型类
+#### 1.4. app1/models.py中定义模型类
 ```python
 from django.db import models
 
@@ -51,6 +51,25 @@ class UserInfo(models.Model):
         db_table = 'userinfo'
         verbose_name = '用户信息'
 ```
-1.5. app1/serializers.py
+#### 1.5. app1/serializers.py中定义序列化器类
+> 字段约束条件：[序列化程序字段 - Django REST 框架 (django-rest-framework.org)](https://www.django-rest-framework.org/api-guide/fields/)
+- 在app1应用中新建文件`serializers.py`
+- 在文件`serializers.py`中定义序列化器
+```python
+from rest_framework import serializers
 
+class UserInfoSerializer(serializers.Serializer):
+    # 定义序列化器
+    name = serializers.CharField(max_length=10)
+    pwd = serializers.CharField(max_length=18)
+    email = serializers.EmailField(max_length=20)
+    age = serializers.IntegerField(min_value=0, max_value=150)
 
+```
+#### 1.6. 激活模型类生成迁移文件，执行迁移文件
+```shell
+# 生成迁移文件
+python manage.py makemigrations
+# 执行迁移文件
+python manage.py migrate
+```
