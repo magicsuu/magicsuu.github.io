@@ -198,7 +198,9 @@ class CourseConfig(AppConfig):
 ```shell
 TypeError: argument of type 'PosixPath' is not iterable
 ```
-- 解决方法：在settings.py文件中修改databases配置：
+- 解决方法：
+	- django3.1之后的版本更换了语法，但本实操使用的django3.0.6也出现了此问题.
+	- 故在settings.py文件中，将databases中default数据库的name路径转化为字符串：
 ```python
 # 原代码：
 DATABASES = {
@@ -216,7 +218,8 @@ DATABASES = {
     }
 }
 ```
-1. [输入用户名密码点击登录](#^66263d)后，遇到了如下问题：
+
+2. [输入用户名密码点击登录](#^66263d)后，遇到了如下问题：
 ```shell
 binascii.Error: Invalid base64-encoded string: number of data characters (213) cannot be 1 more than a multiple of 4
 ```
