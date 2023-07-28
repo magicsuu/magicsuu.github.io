@@ -13,4 +13,26 @@ typora-root-url: ..
 3. 定义路由  →  urls.py
 4. 定义视图  →  views.py
 
+## 序列化操作
+### 1. 环境准备
+1.1. 创建项目
+```shell
+django-admin startproject DRFdemo1
+```
+1.2. 创建应用
+```shell
+python manage.py startapp app1
+```
+1.3. 修改setting.py中的配置
+```python
+INSTALLED_APPS = [
+    ...
+    'app1',
+    'rest_framework',
+]
+```
+1.4. app1/models.py中定义模型类
+
+
+
 
