@@ -75,7 +75,7 @@ python manage.py migrate
 ```
 ![](/assets/images/2307/Pasted%20image%2020230728153603.png)
 #### 1.7. 练习数据准备
-```shell
+```json
 # 打开命令行终端，输入命令
 # 进入shell交互环境，或直接打开pycharm中的python console控制台
 python manage.py shell
@@ -97,8 +97,7 @@ UserInfo.objects.create(name='王五', pwd='123456ww', email='ww@qq.com', age=21
 # 或
 python manage.py shell
 ```
-- 练习1
-```shell
+```json
 # 通过模型类查询一条用户信息
 # 即python对象obj
 >>> from app1.models import UserInfo
@@ -115,4 +114,19 @@ python manage.py shell
 ```
 
 #### 2.2. 查询集序列化
+```json
+>>> objs = UserInfo.objects.all()
+>>> objs
+<QuerySet [<UserInfo: 张三>, <UserInfo: 李四>, <UserInfo: 王五>]>
+>>> sers = UserInfoSerializer(objs, many=True)
+>>> sers
+UserInfoSerializer(<QuerySet [<UserInfo: 张三>, <UserInfo: 李四>, <UserInfo: 王五>]>, many=True):
+    name = CharField(max_length=10)
+    pwd = CharField(max_length=18)
+    email = EmailField(max_length=20)
+    age = IntegerField(max_value=150, min_value=0)
+>>> sers.data
+[OrderedDict([('name', '张三'), ('pwd', '123456zs'), ('email', 'zs@qq.com'), ('age', 19)]), OrderedDict([('name', '李四'), ('pwd', '123456ls'), ('email', 'ls@qq.com'), ('age', 19)]), OrderedDict([('name', '王五'), ('pwd', '123456ww'), ('email', 'ww@qq.com'), ('age', 21)])]
+```
+
 

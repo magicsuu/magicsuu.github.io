@@ -48,9 +48,21 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "ca322f892ea419ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-07-28-DRF框架-商城管理-DRFdemo1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -100,7 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.5
+    "width": 237.5
   },
   "right": {
     "id": "37c634ec520bf467",
@@ -116,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-07-25-DRF框架-课程管理-drf_tutorial.md",
+                "file": "_posts/2023-07-28-DRF框架-商城管理-DRFdemo1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-07-25-DRF框架-课程管理-drf_tutorial.md",
+                "file": "_posts/2023-07-28-DRF框架-商城管理-DRFdemo1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-07-25-DRF框架-课程管理-drf_tutorial.md"
+                "file": "_posts/2023-07-28-DRF框架-商城管理-DRFdemo1.md"
               }
             }
           }
@@ -165,7 +177,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 278.5
+    "width": 239.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -177,10 +189,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "c314a09e2116b4b4",
+  "active": "ca322f892ea419ce",
   "lastOpenFiles": [
-    "_posts/2023-07-28-DRF框架-商城管理-DRFdemo1.md",
     "_posts/2023-07-25-DRF框架-课程管理-drf_tutorial.md",
+    "_posts/2023-07-28-DRF框架-商城管理-DRFdemo1.md",
     "assets/images/2307/Pasted image 20230728153603.png",
     "_posts/2023-07-26-代码上传至云服务器.md",
     "_posts/2023-07-24-django学习.md",
