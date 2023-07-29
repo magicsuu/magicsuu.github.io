@@ -115,7 +115,7 @@ python manage.py shell
 
 #### 2.2. 查询集序列化
 ```python
-# 对多个数据进行
+# 对多个数据进行序列化加参数：many=True
 >>> objs = UserInfo.objects.all()
 >>> objs
 <QuerySet [<UserInfo: 张三>, <UserInfo: 李四>, <UserInfo: 王五>]>
@@ -136,7 +136,9 @@ UserInfoSerializer(<QuerySet [<UserInfo: 张三>, <UserInfo: 李四>, <UserInfo:
 >>> json.dumps(sers.data)
 '[{"name": "\\u5f20\\u4e09", "pwd": "123456zs", "email": "zs@qq.com", "age": 19}, {"name": "\\u674e\\u56db", "pwd": "123456ls", "email": "ls@qq.com", "age": 19}, {"name": "\\u738b\\u4e94", "pwd": "123456ww", "email": "ww@qq.com", "age": 21}]'
 ```
+```python
 
+```
 
 
 
