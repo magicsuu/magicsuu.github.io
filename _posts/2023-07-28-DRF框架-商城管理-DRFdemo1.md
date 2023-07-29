@@ -97,7 +97,7 @@ UserInfo.objects.create(name='王五', pwd='123456ww', email='ww@qq.com', age=21
 # 或
 python manage.py shell
 ```
-```json
+```python
 # 通过模型类查询一条用户信息
 # 即python对象obj
 >>> from app1.models import UserInfo
@@ -114,7 +114,8 @@ python manage.py shell
 ```
 
 #### 2.2. 查询集序列化
-```json
+```python
+# 对多个数据进行
 >>> objs = UserInfo.objects.all()
 >>> objs
 <QuerySet [<UserInfo: 张三>, <UserInfo: 李四>, <UserInfo: 王五>]>
@@ -128,5 +129,16 @@ UserInfoSerializer(<QuerySet [<UserInfo: 张三>, <UserInfo: 李四>, <UserInfo:
 >>> sers.data
 [OrderedDict([('name', '张三'), ('pwd', '123456zs'), ('email', 'zs@qq.com'), ('age', 19)]), OrderedDict([('name', '李四'), ('pwd', '123456ls'), ('email', 'ls@qq.com'), ('age', 19)]), OrderedDict([('name', '王五'), ('pwd', '123456ww'), ('email', 'ww@qq.com'), ('age', 21)])]
 ```
+
+#### 2.3. 将序列化得到的数据转换为json
+```python
+>>> import json
+>>> json.dumps(sers.data)
+'[{"name": "\\u5f20\\u4e09", "pwd": "123456zs", "email": "zs@qq.com", "age": 19}, {"name": "\\u674e\\u56db", "pwd": "123456ls", "email": "ls@qq.com", "age": 19}, {"name": "\\u738b\\u4e94", "pwd": "123456ww", "email": "ww@qq.com", "age": 21}]'
+```
+
+
+
+
 
 
