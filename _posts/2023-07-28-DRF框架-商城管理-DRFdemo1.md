@@ -137,9 +137,20 @@ UserInfoSerializer(<QuerySet [<UserInfo: 张三>, <UserInfo: 李四>, <UserInfo:
 '[{"name": "\\u5f20\\u4e09", "pwd": "123456zs", "email": "zs@qq.com", "age": 19}, {"name": "\\u674e\\u56db", "pwd": "123456ls", "email": "ls@qq.com", "age": 19}, {"name": "\\u738b\\u4e94", "pwd": "123456ww", "email": "ww@qq.com", "age": 21}]'
 ```
 ```python
-
+>>> from rest_framework.renderers import JSONRenderer
+>>> JSONRenderer().render(sers.data)
+b'[{"name":"\xe5\xbc\xa0\xe4\xb8\x89","pwd":"123456zs","email":"zs@qq.com","age":19},{"name":"\xe6\x9d\x8e\xe5\x9b\x9b","pwd":"123456ls","email":"ls@qq.com","age":19},{"name":"\xe7\x8e\x8b\xe4\xba\x94","pwd":"123456ww","email":"ww@qq.com","age":21}]'
 ```
-
+即：
+```python
+from rest_framework.renderers import JSONRenderer
+# 查询用户对象
+obj = UserInfo.objects.get(id=1)
+# 创建序列化对象
+ser = UserInfoSerializer(obj)
+# 将得到的字段，转换为json数据
+JSONRenderer().render(ser.data)
+```
 
 
 
