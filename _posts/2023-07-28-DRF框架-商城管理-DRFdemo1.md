@@ -191,7 +191,8 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 ![](/assets/images/2307/Pasted%20image%2020230731113711.png)
-#### 4. tian
+#### 4. 添加练习数据
+
 
 
 ### 3.2. 关联字段序列化的方式
