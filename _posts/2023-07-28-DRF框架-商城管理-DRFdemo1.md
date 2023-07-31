@@ -192,6 +192,9 @@ python manage.py migrate
 ```
 ![](/assets/images/2307/Pasted%20image%2020230731113711.png)
 #### 4. 添加练习数据
+```python
+
+```
 
 
 
