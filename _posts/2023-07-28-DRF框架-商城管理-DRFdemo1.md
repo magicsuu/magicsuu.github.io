@@ -238,7 +238,15 @@ user = serializers.SlugRelatedField(read_only=True, slug_field='name')
 - 反序列化时，初始化序列化器对象，将要被反序列化的数据传入`data参数`
 ### 3.1. 数据验证
 #### 1. 校验数据
-
+```json
+>>> from app1.serializers import UserInfoSerializer
+>>> user1 = {"name":"lisi", "pwd":"1234", "email":"123@123.com","age":18}
+>>> ser = UserInfoSerializer(data=user1)
+>>> ser.is_valid()
+True
+>>> ser.errors
+{}
+```
 
 
 
