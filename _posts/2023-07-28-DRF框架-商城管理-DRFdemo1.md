@@ -201,27 +201,36 @@ python manage.py migrate
 ```
 #### 5. 定义序列化器
 ```json
-from rest_framework.renderers import JSONRenderer
-# 查询用户对象
-obj = UserInfo.objects.get(id=1)
-# 创建序列化对象
-ser = UserInfoSerializer(obj)
-# 将得到的字段，转换为json数据
-JSONRenderer().render(ser.data)
-
 # 查询地址对象
 addr1 = Addr.objects.get(id=1)
+addr1
 # 创建序列化对象
 aser = AddrSerializer(addr1)
-# 将得到的字段，转换为json数据
-
-
-
+aser
+aser.data
 ```
 
 
 
 
 ### 3.2. 关联字段序列化的方式
-#### 1. 
-
+#### 1. PrimaryKeyRelatedField
+- 返回关联字段的id
+```python
+user = serializers.PrimaryKeyRelatedField()
+```
+#### 2. StringRelatedField
+- 返回关联字段的id
+```python
+user = serializers.StringRelatedField()
+```
+#### 3. 使用关联对象的序列化器
+- 返回关联对象序列化器返回的所有字段
+```python
+user = UserInfoSerializer()
+```
+#### 4. SlugRelatedField
+- 指定返回关联对象某个具体字段
+```python
+user = serializers.SlugRelatedField(read_only=True, slug_field='name')
+```
