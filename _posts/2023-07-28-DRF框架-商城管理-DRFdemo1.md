@@ -201,7 +201,21 @@ python manage.py migrate
 ```
 #### 5. 定义序列化器
 ```json
-add1 = Addr.objects.get(id=1)
+from rest_framework.renderers import JSONRenderer
+# 查询用户对象
+obj = UserInfo.objects.get(id=1)
+# 创建序列化对象
+ser = UserInfoSerializer(obj)
+# 将得到的字段，转换为json数据
+JSONRenderer().render(ser.data)
+
+# 查询地址对象
+addr1 = Addr.objects.get(id=1)
+# 创建序列化对象
+aser = AddrSerializer(addr1)
+# 将得到的字段，转换为json数据
+
+
 
 ```
 
