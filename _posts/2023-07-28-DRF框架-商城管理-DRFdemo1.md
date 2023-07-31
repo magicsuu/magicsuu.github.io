@@ -13,17 +13,17 @@ typora-root-url: ..
 3. 定义路由  →  urls.py
 4. 定义视图  →  views.py
 
-## 序列化操作
-### 1. 环境准备
-#### 1.1. 创建项目
+# 序列化操作
+## 1. 环境准备
+### 1.1. 创建项目
 ```shell
 django-admin startproject DRFdemo1
 ```
-#### 1.2. 创建应用
+### 1.2. 创建应用
 ```shell
 python manage.py startapp app1
 ```
-#### 1.3. 修改setting.py中的配置
+### 1.3. 修改setting.py中的配置
 ```python
 INSTALLED_APPS = [
     ...
@@ -31,7 +31,7 @@ INSTALLED_APPS = [
     'rest_framework',
 ]
 ```
-#### 1.4. app1/models.py中定义模型类
+### 1.4. app1/models.py中定义模型类
 ```python
 from django.db import models
 
@@ -51,7 +51,10 @@ class UserInfo(models.Model):
         db_table = 'userinfo'
         verbose_name = '用户信息'
 ```
-#### 1.5. app1/serializers.py中定义序列化器类
+
+^8b1c56
+
+### 1.5. app1/serializers.py中定义序列化器类
 > 字段约束条件：[序列化程序字段 - Django REST 框架 (django-rest-framework.org)](https://www.django-rest-framework.org/api-guide/fields/)
 - 在app1应用中新建文件`serializers.py`
 - 在文件`serializers.py`中定义序列化器
@@ -66,7 +69,10 @@ class UserInfoSerializer(serializers.Serializer):
     age = serializers.IntegerField(min_value=0, max_value=150)
 
 ```
-#### 1.6. 激活模型类生成迁移文件，执行迁移文件
+
+^9cc7bf
+
+### 1.6. 激活模型类生成迁移文件，执行迁移文件
 ```shell
 # 生成迁移文件
 python manage.py makemigrations
@@ -74,7 +80,7 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 ![](/assets/images/2307/Pasted%20image%2020230728153603.png)
-#### 1.7. 练习数据准备
+### 1.7. 练习数据准备
 ```json
 # 打开命令行终端，输入命令
 # 进入shell交互环境，或直接打开pycharm中的python console控制台
@@ -88,9 +94,9 @@ UserInfo.objects.create(name='李四', pwd='123456ls', email='ls@qq.com', age=19
 UserInfo.objects.create(name='王五', pwd='123456ww', email='ww@qq.com', age=21)
 ```
 
-### 2. 序列化操作
+## 2. 序列化操作
 - 序列化：将`python对象`转换为`json格式数据`
-#### 2.1. 单个数据序列化
+### 2.1. 单个数据序列化
 - 进入交互环境
 ```shell
 # 打开pycharm中的python console控制台
@@ -113,7 +119,7 @@ python manage.py shell
 {'name': '张三', 'pwd': '123456zs', 'email': 'zs@qq.com', 'age': 19}
 ```
 
-#### 2.2. 查询集序列化
+### 2.2. 查询集序列化
 ```python
 # 对多个数据进行序列化加参数：many=True
 >>> objs = UserInfo.objects.all()
@@ -130,7 +136,7 @@ UserInfoSerializer(<QuerySet [<UserInfo: 张三>, <UserInfo: 李四>, <UserInfo:
 [OrderedDict([('name', '张三'), ('pwd', '123456zs'), ('email', 'zs@qq.com'), ('age', 19)]), OrderedDict([('name', '李四'), ('pwd', '123456ls'), ('email', 'ls@qq.com'), ('age', 19)]), OrderedDict([('name', '王五'), ('pwd', '123456ww'), ('email', 'ww@qq.com'), ('age', 21)])]
 ```
 
-#### 2.3. 将序列化得到的数据转换为json
+### 2.3. 将序列化得到的数据转换为json
 ```python
 >>> import json
 >>> json.dumps(sers.data)
@@ -152,13 +158,33 @@ ser = UserInfoSerializer(obj)
 JSONRenderer().render(ser.data)
 ```
 
-###  3. 关联对象嵌套序列化
-#### 3.1. 数据准备
-- ##### app1/models.py中定义模型类
+##  3. 关联对象嵌套序列化
+### 3.1. 数据准备
+#### 1. app1/models.py中定义模型类
+[前一部分代码](#^8b1c56)
 ```python
+# 模型Addr关联userinfo
+class Addr(models.Model):
+    # 收货地址模型
+    user = models.ForeignKey('UserInfo', verbose_name=' 所属用户', on_delete=models.CASCADE)
+    mobile = models.CharField(verbose_name='手机号', max_length=18)
+    city = models.CharField(verbose_name='城市', max_length=10)
+    info = models.CharField(verbose_name=' 详细地址', max_length=200)
 
+    def __str__(self):
+        return self.info
 ```
-- 
+#### 2. app1/serializers.py中定义序列化器
+[前一部分代码](#^9cc7bf)
+```python
+class AddrSerializer(serializers.Serializer):
+    # 收货地址 序列化器
+    mobile = serializers.CharField( max_length=18)
+    city = serializers.CharField(max_length=10)
+    info = serializers.CharField(max_length=200)
+    # 返回关联模型对象的主键
+    user = serializers.PrimaryKeyRelatedField()
+```
 
 
 
