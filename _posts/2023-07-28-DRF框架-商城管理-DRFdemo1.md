@@ -232,6 +232,15 @@ user = UserInfoSerializer()
 user = serializers.SlugRelatedField(read_only=True, slug_field='name')
 ```
 
-
 ## 3. 反序列化操作
+- 反序列化：将`json格式数据`，转换为`python对象`
+- 进行反序列化操作时，会先对数据对象进行验证，验证通过的情况下再进行保存
+- 反序列化时，初始化序列化器对象，将要被反序列化的数据传入`data参数`
+### 3.1. 数据验证
+#### 1. 校验数据
+
+
+
+
+
 
