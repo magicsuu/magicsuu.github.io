@@ -185,6 +185,15 @@ class AddrSerializer(serializers.Serializer):
     # 返回关联模型对象的主键
     user = serializers.PrimaryKeyRelatedField()
 ```
-#### 3. 
+#### 3. 重新生成迁移文件，并执行
+```json
+python manage.py makemigrations
+python manage.py migrate
+```
+![](/assets/images/2307/Pasted%20image%2020230731113711.png)
+#### 4. tian
 
+
+### 3.2. 关联字段序列化的方式
+#### 1. 
 
