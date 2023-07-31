@@ -20,8 +20,21 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "caee61460081addf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-07-31-黑马DRF框架经典教程-demo.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -71,7 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 224.5,
+    "width": 351.5,
     "collapsed": true
   },
   "right": {
@@ -88,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-07-28-DRF框架-商城管理-DRFdemo1.md",
+                "file": "_posts/2023-07-31-黑马DRF框架经典教程-demo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -111,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-07-28-DRF框架-商城管理-DRFdemo1.md"
+                "file": "_posts/2023-07-31-黑马DRF框架经典教程-demo.md"
               }
             }
           },
@@ -121,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-07-28-DRF框架-商城管理-DRFdemo1.md",
+                "file": "_posts/2023-07-31-黑马DRF框架经典教程-demo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +150,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 357.5
+    "width": 243.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -149,10 +162,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "60d5e8803ee8ac38",
+  "active": "caee61460081addf",
   "lastOpenFiles": [
-    "_posts/2023-07-25-DRF框架-课程管理-drf_tutorial.md",
     "_posts/2023-07-28-DRF框架-商城管理-DRFdemo1.md",
+    "_posts/2023-07-31-黑马DRF框架经典教程-demo.md",
+    "_posts/2023-07-25-DRF框架-课程管理-drf_tutorial.md",
     "_posts/2023-07-26-代码上传至云服务器.md",
     "assets/images/2307/Pasted image 20230731113711.png",
     "_posts/2023-07-27-ubuntu多用户隔离测试.md",
