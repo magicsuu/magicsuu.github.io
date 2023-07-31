@@ -154,7 +154,7 @@ JSONRenderer().render(ser.data)
 
 ###  3. 关联对象嵌套序列化
 #### 3.1. 数据准备
-- 定义模型类
+- ##### app1/models.py中定义模型类
 ```python
 
 ```
