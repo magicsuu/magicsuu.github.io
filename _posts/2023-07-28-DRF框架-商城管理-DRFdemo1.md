@@ -193,8 +193,18 @@ python manage.py migrate
 ![](/assets/images/2307/Pasted%20image%2020230731113711.png)
 #### 4. 添加练习数据
 ```python
+>>> obj = UserInfo.objects.get(id=1)
+>>> Addr.objects.create(user=obj, mobile='12345678910', city='北京', info='北京市海淀区')
+<Addr: 北京市海淀区>
+>>> Addr.objects.create(user=obj, mobile='223456789101', city='上海', info='上海市浦东区')
+<Addr: 上海市浦东区>
+```
+#### 5. 定义序列化器
+```json
+add1 = Addr.objects.get(id=1)
 
 ```
+
 
 
 
