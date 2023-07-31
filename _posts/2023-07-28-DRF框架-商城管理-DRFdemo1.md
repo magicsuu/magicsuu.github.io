@@ -7,13 +7,21 @@ tags: [django, DRF, b站视频]
 typora-root-url: ..
 ---
 
-## DRF开发RESTful接口
+# Ⅰ. Django实现RESTful风格：
+
+
+
+
+
+
+# Ⅱ. DRF开发RESTful接口
 1. 定义模型类  →  models.py
 2. 定义序列化器  →  serializers.py
 3. 定义路由  →  urls.py
 4. 定义视图  →  views.py
 
 # 一、序列化操作（输出）
+- 序列化：将`python对象`转换为`json格式数据`
 ## 1. 环境准备
 ### 1.1. 创建项目
 ```shell
@@ -95,7 +103,6 @@ UserInfo.objects.create(name='王五', pwd='123456ww', email='ww@qq.com', age=21
 ```
 
 ## 2. 序列化操作
-- 序列化：将`python对象`转换为`json格式数据`
 ### 2.1. 单个数据序列化
 - 进入交互环境
 ```shell
@@ -236,8 +243,9 @@ user = serializers.SlugRelatedField(read_only=True, slug_field='name')
 - 反序列化：将`json格式数据`，转换为`python对象`
 - 进行反序列化操作时，会先对数据对象进行验证，验证通过的情况下再进行保存
 - 反序列化时，初始化序列化器对象，将要被反序列化的数据传入`data参数`
-### 3.1. 数据验证
-#### 1. 校验数据
+- 进行修改、新增时使用反序列化
+## 1. 数据验证
+### 1.1. 校验数据
 ```json
 >>> from app1.serializers import UserInfoSerializer
 >>> user1 = {"name":"lisi", "pwd":"1234", "email":"123@123.com","age":18}
