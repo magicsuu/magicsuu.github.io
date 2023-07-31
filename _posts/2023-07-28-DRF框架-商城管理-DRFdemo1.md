@@ -152,6 +152,9 @@ ser = UserInfoSerializer(obj)
 JSONRenderer().render(ser.data)
 ```
 
+###  3. 关联对象嵌套序列化
+3.1. 数据准备
+
 
 
 
