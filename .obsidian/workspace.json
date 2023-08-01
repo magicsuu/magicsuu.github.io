@@ -32,8 +32,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "281fb451c060cad0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-07-28-DRF框架-商城管理-DRFdemo1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -161,7 +174,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "60d5e8803ee8ac38",
+  "active": "281fb451c060cad0",
   "lastOpenFiles": [
     "_posts/2023-07-31-黑马DRF框架经典教程-demo.md",
     "_posts/2023-07-28-DRF框架-商城管理-DRFdemo1.md",

@@ -15,9 +15,6 @@ typora-root-url: ..
 - 查：查询数据库 -> 将数据序列化并返回（将模型转换为json字典）
 
 
-
-
-
 # Ⅱ. DRF开发RESTful接口
 1. 定义模型类  →  models.py
 2. 定义序列化器  →  serializers.py
