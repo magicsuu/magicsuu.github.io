@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-07-28-DRF框架-商城管理-DRFdemo1.md",
+                "file": "_posts/2023-07-31-黑马DRF框架经典教程-demo.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-07-28-DRF框架-商城管理-DRFdemo1.md",
+                "file": "_posts/2023-07-31-黑马DRF框架经典教程-demo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-07-28-DRF框架-商城管理-DRFdemo1.md"
+                "file": "_posts/2023-07-31-黑马DRF框架经典教程-demo.md"
               }
             }
           },
@@ -145,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-07-28-DRF框架-商城管理-DRFdemo1.md",
+                "file": "_posts/2023-07-31-黑马DRF框架经典教程-demo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,6 +175,7 @@
   },
   "active": "281fb451c060cad0",
   "lastOpenFiles": [
+    "_posts/2023-08-15-Redis.md",
     "_posts/2023-07-31-黑马DRF框架经典教程-demo.md",
     "_posts/2023-07-28-DRF框架-商城管理-DRFdemo1.md",
     "_posts/2023-07-25-DRF框架-课程管理-drf_tutorial.md",
@@ -215,7 +216,6 @@
     "assets/img/Pasted.md",
     "_posts/2023-07-24 云服务器.md",
     "_posts/2023-07-24 django.md",
-    "tabs/categories 1.md",
     "assets/images/cat",
     "assets/images/2023",
     "assets/images/2022/tca-saving-bug.mp4",
