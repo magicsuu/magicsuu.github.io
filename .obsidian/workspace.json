@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-07-31-黑马DRF框架经典教程-demo.md",
+                "file": "_posts/2023-08-15-Redis.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-07-31-黑马DRF框架经典教程-demo.md",
+                "file": "_posts/2023-08-15-Redis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-07-31-黑马DRF框架经典教程-demo.md"
+                "file": "_posts/2023-08-15-Redis.md"
               }
             }
           },
@@ -145,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-07-31-黑马DRF框架经典教程-demo.md",
+                "file": "_posts/2023-08-15-Redis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,13 +175,13 @@
   },
   "active": "281fb451c060cad0",
   "lastOpenFiles": [
-    "_posts/2023-08-15-Redis.md",
-    "_posts/2023-07-31-黑马DRF框架经典教程-demo.md",
-    "_posts/2023-07-28-DRF框架-商城管理-DRFdemo1.md",
-    "_posts/2023-07-25-DRF框架-课程管理-drf_tutorial.md",
     "_posts/2023-07-26-代码上传至云服务器.md",
-    "assets/images/2307/Pasted image 20230731113711.png",
     "_posts/2023-07-27-ubuntu多用户隔离测试.md",
+    "_posts/2023-07-28-DRF框架-商城管理-DRFdemo1.md",
+    "_posts/2023-07-31-黑马DRF框架经典教程-demo.md",
+    "_posts/2023-08-15-Redis.md",
+    "_posts/2023-07-25-DRF框架-课程管理-drf_tutorial.md",
+    "assets/images/2307/Pasted image 20230731113711.png",
     "assets/images/2307/Pasted image 20230728153603.png",
     "_posts/2023-07-24-django学习.md",
     "assets/images/2307/Pasted image 20230728112519.png",
